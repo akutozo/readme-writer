@@ -37,31 +37,26 @@ const questions = () => {
             type: 'input',
             name: 'Installation',
             message: 'Installation Instructions',
-            default: false
         },
         {
             type: 'input',
             name: 'usage',
             message: 'Proper Usage',
-            default: false
         },
         {
             type: 'input',
             name: 'contributors',
             message: 'Detail contributers to this project, if any.',
-            default: false
         },
         {
             type: 'input',
             name: 'testing',
             message: 'Provide any relevant testing information.',
-            default: false
         },
         {
             type: 'input',
             name: 'questions',
             message: 'Additional Questions',
-            default: false
         }
         
     ]);
