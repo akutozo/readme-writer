@@ -1,5 +1,4 @@
 # 1
-  # 1
   ## DEVELOPED BY: 
 github.com/undefined
   ## Table of Contents
@@ -13,7 +12,7 @@ github.com/undefined
   ## DESCRIPTION:
 2
   ## LANGUAGES USED:
- JavaScript 
+ jQuery 
   ## INSTALLATION:
 3
   ## CONTRIBUTING DEVELOPERS:
