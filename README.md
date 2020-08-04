@@ -1,32 +1,29 @@
-# Read me, Write Me, Add me, Commit me, View Me Vividly
+# Read Me Writer
   ## DEVELOPED BY: 
-github.com/undefined
+github.com/akutozo
   ## Table of Contents
   * [Description](#description:)
-  * [Languages](#languages-used:)
+  * [Languages](#languages:)
   * [Installation](#installation:)
-  * [Contributing Developers](#contributing-developers:)
+  * [Contributors](#contributors:)
   * [Questions](#questions:)
   * [License(s)](#license(s):)
   
-  ## DESCRIPTION:
-Inspired by Matchbox 20, we plan to use this app to write our readme, git it, commit it, and push it (around) to github.
-  ## LANGUAGES USED:
- JavaScript , HTML , ES6 
-  ## INSTALLATION:
-Installation of this application best starts by finding superior products, of a similar function, and using them instead. If you are unlucky enough to have only found this one, please clone this repository to your computer, install node (google is your friend), open the terminal in VS Code (not installed? Google is your friend), navigate to the folder you cloned and write node index. Answer the prompts, and you're good to go.
-  ## CONTRIBUTING DEVELOPERS:
-Grant, Google, and Rhonda (vicariously)
-  ## QUESTIONS:
-For questions, contact: akutozo@gmail.com
-  ## LICENSE(S)
+  ## Description: 
+Brought to you by the makers of ADD Interpreted, now that we've given you ample hours of killing time Oggling, Boggling, Joggling and Toggling we felt it was time to give back to the community. In this application, our goal is to save time (and theoretical money). Desgined for the developer who couldn't find a better Read Me Generator than this one, we're giving you an opportunity to quickly and easilt create a Read Me for your GitHub project.
+  ## Languages: 
+JavaScript, ES6
+  ## Installation: 
+Clone this repository to the folder of your choice, then open the folder in VS Code. Make sure to have Node installed, open your terminal and type "node index" (Pro tip, don't actually type " "). This will run through a series of questions until you have finished, and drop your new Read Me in the dist(ribution) folder.
+  ## Contributors: 
+Grant, Rhonda, and Google.
+  ## Questions? 
+Contact me at akutozo@gmail.com
+  ## License(s) 
+Contact me at 
 
   
-![GitHub](https://img.shields.io/github/license/undefined/Read me, Write Me, Add me, Commit me, View Me Vividly)
+![Following the Author](https://img.shields.io/github/followers/akutozo?label=GitHub%20Followers&logo=Github&?style=social)
   
-![GitHub followers](https://img.shields.io/github/followers/undefined?label=GitHub%20Followers&logo=Github&?style=social)
-  
-![GitHub language count](https://img.shields.io/github/languages/count/undefined/Read me, Write Me, Add me, Commit me, View Me Vividly?logo=GitHub)
-  
-![GitHub last commit](https://img.shields.io/github/last-commit/undefined/Read me, Write Me, Add me, Commit me, View Me Vividly)
+![Most Recent Update](https://img.shields.io/github/last-commit/akutozo/readme-writer)
   
