@@ -23,11 +23,37 @@ const questions = [
             type: 'input',
             name: 'description',
             message: 'Provide a description of the project:',
+            validate: descInput => {
+                if (descInput) {
+                    return true;
+                } else {
+                    console.log('You must describe this project.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'gitHub',
+            message: 'Provide your github username:',
             validate: gitHubInput => {
                 if (gitHubInput) {
                     return true;
                 } else {
-                    console.log('You must describe this project.');
+                    console.log('You must include your github username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'repo',
+            message: 'Provide the repository for this project:',
+            validate: gitHubInput => {
+                if (gitHubInput) {
+                    return true;
+                } else {
+                    console.log('You must provide the repository.');
                     return false;
                 }
             }
@@ -70,7 +96,7 @@ const questions = [
 
 function init() {
     inquirer.prompt(questions).then((response) => {
-        fs.writeFile("README.md", generateMarkdown(response), err => {
+        fs.writeFile("./dist/README.md", generateMarkdown(response), err => {
             if (err) {
                 throw err;
             }
