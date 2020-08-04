@@ -15,8 +15,7 @@ Brought to you by the makers of ADD Interpreted, now that we've given you ample 
 JavaScript, ES6
   ## Installation: 
 Clone this repository to the folder of your choice, then open the folder in VS Code. Make sure to have Node installed, open your terminal and type "node index" (Pro tip, don't actually type " "). This will run through a series of questions until you have finished, and drop your new Read Me in the dist(ribution) folder.
-## How to Video: 
-### [Take a look at our How to Video](https://drive.google.com/file/d/1zk73Ty7TH3cOs1XkoW_Rov0YSJTcBPkA/view)
+
   ## Contributors: 
 Grant, Rhonda, and Google.
   ## Questions? 
