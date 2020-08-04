@@ -15,7 +15,7 @@ function generateMarkdown(data) {
   ${"## Installation: " + '\n' + data.installation}
   ${"## Contributors: " + '\n'  + data.contributors}
   ${"## Questions? " + '\n' + "Contact me at " + data.email}
-  ${"## License(s) " + '\n' + "Contact me at " + data.license}
+  ${"## License(s) " + '\n' + "" + data.license}
 
   ${'\n' + `![Following the Author](https://img.shields.io/github/followers/${data.gitHub}?label=GitHub%20Followers&logo=Github&?style=social)`}
   ${'\n' + `![Most Recent Update](https://img.shields.io/github/last-commit/${data.gitHub}/${data.repo})`}
