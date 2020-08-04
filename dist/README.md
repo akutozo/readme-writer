@@ -1,32 +1,29 @@
-# This is the title
+# This is the title of the application
   ## DEVELOPED BY: 
 github.com/akutozo
   ## Table of Contents
   * [Description](#description:)
-  * [Languages](#languages-used:)
+  * [Languages](#languages:)
   * [Installation](#installation:)
-  * [Contributing Developers](#contributing-developers:)
+  * [Contributors](#contributors:)
   * [Questions](#questions:)
   * [License(s)](#license(s):)
   
-  ## DESCRIPTION:
-Descrip
-  ## LANGUAGES USED:
- JavaScript , ES6 
-  ## INSTALLATION:
-Install
-  ## CONTRIBUTING DEVELOPERS:
-People
-  ## QUESTIONS:
-For questions, contact: akutozo@gmail.com
-  ## LICENSE(S)
+  ## Description: 
+Here we can talk about what this application does, the purpose it serves, and why you might want to use it.
+  ## Languages: 
+JavaScript
+  ## Installation: 
+Assumptions being what they are, you haven't found a better author to make you a Read Me. Here, you can clone the repository to your computer and if you're like me, you can open the terminal in VS code, open the folder and run "node index" to get this party started.
+  ## Contributors: 
+Grant, Rhonda, Google, and a lot of luck.
+  ## Questions? 
+Contact me at akutozo@gmail.com
+  ## License(s) 
+Contact me at  The MIT License 
 
   
-![GitHub](https://img.shields.io/github/license/akutozo/readme-writer)
+![Following the Author](https://img.shields.io/github/followers/akutozo?label=GitHub%20Followers&logo=Github&?style=social)
   
-![GitHub followers](https://img.shields.io/github/followers/akutozo?label=GitHub%20Followers&logo=Github&?style=social)
-  
-![GitHub language count](https://img.shields.io/github/languages/count/akutozo/readme-writer?logo=GitHub)
-  
-![GitHub last commit](https://img.shields.io/github/last-commit/akutozo/readme-writer)
+![Most Recent Update](https://img.shields.io/github/last-commit/akutozo/readme-writer)
   

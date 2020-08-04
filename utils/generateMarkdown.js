@@ -4,22 +4,21 @@ function generateMarkdown(data) {
   ${"## DEVELOPED BY: " +  '\n' + "github.com/" + data.gitHub}
   ${"## Table of Contents" }
   * [Description](#description:)
-  * [Languages](#languages-used:)
+  * [Languages](#languages:)
   * [Installation](#installation:)
-  * [Contributing Developers](#contributing-developers:)
+  * [Contributors](#contributors:)
   * [Questions](#questions:)
   * [License(s)](#license(s):)
   
-  ${"## DESCRIPTION:"+ '\n' + data.description}
-  ${"## LANGUAGES USED:" + '\n' + data.languages}
-  ${"## INSTALLATION:" + '\n' + data.installation}
-  ${"## CONTRIBUTING DEVELOPERS:" + '\n'  + data.contributors}
-  ${"## QUESTIONS:" + '\n' + "For questions, contact: " + data.email}
-  ${"## LICENSE(S)" + '\n'}
-  ${'\n' + `![GitHub](https://img.shields.io/github/license/${data.gitHub}/${data.repo})`}
-  ${'\n' + `![GitHub followers](https://img.shields.io/github/followers/${data.gitHub}?label=GitHub%20Followers&logo=Github&?style=social)`}
-  ${'\n' + `![GitHub language count](https://img.shields.io/github/languages/count/${data.gitHub}/${data.repo}?logo=GitHub)`}
-  ${'\n' + `![GitHub last commit](https://img.shields.io/github/last-commit/${data.gitHub}/${data.repo})`}
+  ${"## Description: "+ '\n' + data.description}
+  ${"## Languages: " + '\n' + data.languages}
+  ${"## Installation: " + '\n' + data.installation}
+  ${"## Contributors: " + '\n'  + data.contributors}
+  ${"## Questions? " + '\n' + "Contact me at " + data.email}
+  ${"## License(s) " + '\n' + "Contact me at " + data.license}
+
+  ${'\n' + `![Following the Author](https://img.shields.io/github/followers/${data.gitHub}?label=GitHub%20Followers&logo=Github&?style=social)`}
+  ${'\n' + `![Most Recent Update](https://img.shields.io/github/last-commit/${data.gitHub}/${data.repo})`}
   `;
 }
 

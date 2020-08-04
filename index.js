@@ -72,9 +72,14 @@ const questions = [
             type: 'checkbox',
             name: 'languages',
             message: 'What is this application built with?',
-            choices: [' JavaScript ', ' HTML ', ' CSS ', ' ES6 ', ' jQuery ', ' Bootstrap ', ' Node ']
+            choices: ['JavaScript', ' HTML', ' CSS', ' ES6', ' jQuery', ' Bootstrap', ' Node']
         },
-
+        {
+            type: 'checkbox',
+            name: 'license',
+            message: 'Does your application include any of the following licenses?',
+            choices: [' CCO ', ' GNU GPL 3.0 ', ' IBM Public License Version 1.0 ', ' The MIT License ']
+        },
         {
             type: 'input',
             name: 'contributors',
